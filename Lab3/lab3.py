@@ -33,6 +33,6 @@ infer = VariableElimination(model)
 result = infer.query(variables=['C'], evidence={'A': 1})
 print(result)
 
-result = infer.query(variables=['I'], evidence={'A': 1})
+result = infer.query(variables=['I'], evidence={'A': 0})
 print(result)
 
