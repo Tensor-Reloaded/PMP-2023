@@ -57,6 +57,9 @@ while True:
         break
 
 
-print(f"Alpha:{alpha} \nAccuracy: {best_accuracy} Mean Time Wait: {best_all_clients_mean_time_per_all_epochs}")
+print(f"Alpha:{alpha} \nAccuracy: {best_accuracy} \nMean Time Wait: {best_all_clients_mean_time_per_all_epochs}")
 
 
+# Alpha:4.149999999999955 
+# Accuracy: 0.951221224893471 
+# Mean Time Wait: 6.1703905934187615
