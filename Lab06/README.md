@@ -1,0 +1,5 @@
+Efectul lui Y si θ asupra distributiei a posteriori:
+
+- Efectul lui Y: cu cat Y este mai mare, cu atat distributia a posteriori pentru n tinde in jurul valorilor mai mari deoarece sunt mai multe date care sustin o valoare mai mare pentru n decat una mai mica. Daca valoarea lui Y este mica, inseamna ca numarul de clienti care au cumparat produsul este mic. Acest lucru duce la densitatea valorilor luate de catre n sa se concentreze asupra valorilor mai mici. Cu cat Y creste, cu atat n tinde sa ia valori mai mari.
+
+- Efectul lui θ: cu cat probabilitatea θ este mai mare, cu atat distributia a posteriori pentru n tinde sa ia valori mai mici, deoarece pentru a avea o probabilitate mai mare de cumparare, necesita un numar mai mic de clienti, adica un Y mai mic de asemenea. Cu cat θ este mai mic, valorile luate de catre n se concentreaza ascupra valorilor mai mari (implicit asupra valorilor mai mari pentru Y). Cu cat θ creste, cu atat n tinde sa ia valori tot mai mici (implicit Y va lua valori tot mai mici).
