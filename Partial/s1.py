@@ -14,14 +14,14 @@ wins_j1 = 0
 tests = 10000
 
 for i in range(tests):
-    who_starts = stats.binom.rvs(1, 0.5)
+    who_starts = stats.binom.rvs(1, 0.5) # alegem cine incepe cu prob 0.5 pt fiecare jucator
 
     if who_starts == 0:
-        n = stats.binom.rvs(1, 0.5)
+        n = stats.binom.rvs(1, 0.5) # daca este ales J0 atunci probabilitate e uniforma pt stema
 
         m = 0
         for j in range(n+1):
-            m = stats.binom.rvs(1, 2/3)
+            m = stats.binom.rvs(1, 2/3) # J1 are prob 2/3 pentru stema
 
         if n >= m:
             wins_j0 += 1
@@ -29,7 +29,7 @@ for i in range(tests):
             wins_j1 += +1
 
     else:
-        n = stats.binom.rvs(1, 2/3)
+        n = stats.binom.rvs(1, 2/3) # daca incepe J1 atunci are prob. 2/3 pt stema
 
         m = 0
         for j in range(n+1):
